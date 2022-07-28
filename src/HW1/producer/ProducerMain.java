@@ -3,7 +3,7 @@ package HW1.producer;
 public class ProducerMain {
     public static void main(String[] args) throws InterruptedException {
 
-        Actor actor = new Actor();
+        Actor actor = new Actor("");
         Producer producer = new Producer();
 
         Thread fromActor = new Thread(new Thread(actor));
@@ -16,4 +16,3 @@ public class ProducerMain {
         fromProducer.join();
     }
 }
-//2) продюсер-отримувач: один потік відправляє дані, інші його отримають і опрацьовують

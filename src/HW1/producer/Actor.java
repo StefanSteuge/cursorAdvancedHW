@@ -1,19 +1,19 @@
 package HW1.producer;
 
 public class Actor implements Runnable {
+    public volatile String message;
 
-    String message;
-
-    public Actor() {
+    public Actor(String message) {
+        this.message = message;
     }
-
+    public String getMessage() {
+        return " Hi, I need money!";
+    }
     @Override
     public void run() {
-        System.out.println(getActor() + ":" + " Hi, I need money!");
+        getMessage();
     }
-
     public String getActor() {
-        String actor = "Tom Cruse";
-        return actor;
+        return "Tom Cruse";
     }
 }
