@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CursorAdvancedHW.iml" filepath="$PROJECT_DIR$/CursorAdvancedHW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.example.gradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.example.gradle.main.iml" />
     </modules>
   </component>
 </project>
